@@ -1,0 +1,12 @@
+pygments: true
+permalink: /posts/:title
+title : Christopher Garvis
+production_url : http://christophergarvis.com
+description: "Througths, flamewars, utilities, tutorials, codes, projects and other things by Christopher Garvis."
+disqus_shortname:
+analytics: inl3kuv44j
+author :
+  name : Christopher Garvis
+  github : cgarvis
+  twitter : cgarvis
+  email: cgarvis@gmail.com
