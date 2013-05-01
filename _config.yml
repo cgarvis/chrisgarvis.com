@@ -5,6 +5,7 @@ production_url : http://christophergarvis.com
 description: "Througths, flamewars, utilities, tutorials, codes, projects and other things by Christopher Garvis."
 disqus_shortname:
 analytics: inl3kuv44j
+source: .
 author :
   name : Christopher Garvis
   github : cgarvis
