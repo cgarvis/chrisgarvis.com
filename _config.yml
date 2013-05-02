@@ -1,13 +1,15 @@
+permalink: /blog/:title.html
 pygments: true
-permalink: /posts/:title
+exclude: [config.ru, Gemfile, Gemfile.lock, LICENSE.txt, Procfile, Rakefile, README.md, vendor]
+
 title : Christopher Garvis
 production_url : http://christophergarvis.com
 description: "Througths, flamewars, utilities, tutorials, codes, projects and other things by Christopher Garvis."
-disqus_shortname:
+
 analytics: inl3kuv44j
+
 author :
   name : Christopher Garvis
   github : cgarvis
   twitter : cgarvis
   email: cgarvis@gmail.com
-exclude: ["./vendor/", "/vendor/", "vendor", "vendor/**"]
