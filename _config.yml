@@ -10,4 +10,4 @@ author :
   github : cgarvis
   twitter : cgarvis
   email: cgarvis@gmail.com
-exclude: ["vendor/**"]
+exclude: ["./vendor/", "/vendor/", "vendor", "vendor/**"]
