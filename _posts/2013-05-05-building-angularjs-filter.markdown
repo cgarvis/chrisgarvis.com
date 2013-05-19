@@ -12,12 +12,12 @@ I'm a bit of an [architecture](http://www.youtube.com/watch?v=WpkDN78P884 "Archi
 and AngularJS gives me all the building blocks
 to build a well structured application.
 
-The first building block that everyone learns are filters.
+The first building blocks that everyone learns are filters.
 They are one of a few ways to get presentation logic out of your business logic.
 Filters format data to be displayed to the user.
 In this post,
 I will show you how to build a simple phone number filter.
-But first lets see how filters would work.
+First, lets see how filters would work.
 
 ## Understanding AngularJS Filters
 
@@ -45,8 +45,8 @@ it is best to build a bunch of smaller modules
 and then craft them together to build a larger application.
 Not only does this make it easier to test,
 but it becomes very easy to reuse components.
-Following that matra,
-we will build filter as a standalone module.
+Following that mantra,
+we will build a filter as a standalone module.
 
 A filter is just a function that is executed on some input.
 So this is all that is needed:
@@ -131,7 +131,7 @@ angular.module('App', ['telephone'])
 
 ## 6. Profit!
 
-Once installed and setted as a dependency,
+Once installed and set as a dependency,
 we can use it in any of our views.
 
 ```html
