@@ -1,13 +1,22 @@
+# Jekyll Configs
 permalink: /blog/:title.html
 pygments: true
 exclude: [config.ru, Gemfile, Gemfile.lock, LICENSE.txt, Procfile, Rakefile, README.md, vendor]
+lsi: true
 
+# Github style markdown
+markdown: redcarpet
+redcarpet:
+  extensions: ["fenced_code_blocks", "autolink", "space_after_headers"]
+
+# Site Information
 title : Christopher Garvis
 production_url : http://christophergarvis.com
 description: "Througths, flamewars, utilities, tutorials, codes, projects and other things by Christopher Garvis."
 
 analytics: inl3kuv44j
 
+# Info about me
 author :
   name : Christopher Garvis
   github : cgarvis
