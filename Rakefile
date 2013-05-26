@@ -23,7 +23,7 @@ task :new do
 
   title = ENV["title"] || "New Title"
   future = ENV["future"] || 0
-  slug = ENV["slug"].gsub(' ','-').downcase || title.gsub(' ','-').downcase
+  slug = ENV["slug"] ? ENV["slug"].gsub(' ','-').downcase : title.downcase.strip.gsub(/[^\w-]/, ' ').gsub(/\s+/, '-')
 
   if future.to_i < 3
     TARGET_DIR = "_posts"
