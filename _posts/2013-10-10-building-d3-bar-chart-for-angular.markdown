@@ -163,6 +163,6 @@ D3 isn't so scary anymore right?
 You can find the full version in a [gist][gist].
 
 [coffee]: http://coffeescript.org/
-[d3-bar-chart]: img/d3-bar-chart.png
+[d3-bar-chart]: /img/d3-bar-chart.png
 [gist]: https://gist.github.com/cgarvis/71a3e2ab7ac0fe59796e
 [svg-spec]: http://www.w3.org/TR/SVG/text.html
