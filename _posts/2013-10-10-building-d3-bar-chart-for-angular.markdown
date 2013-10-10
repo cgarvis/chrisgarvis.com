@@ -9,6 +9,8 @@ and at times can be a bit overwhelming.
 Today I would like to simplify things
 by walking you through building a bar chart using D3.
 
+![Demo Bar Chart][d3-bar-chart]
+
 **tl;dr** Full version [gist][gist].
 
 ### Warning Coffeescript
@@ -31,7 +33,7 @@ angular.module('chart', [])
         scope:
             data: '='
         link: (scope, element, attrs) ->
-            width = 1140
+            width = 400
             height = 200
 
             chart = d3.select(element[0])
@@ -160,6 +162,7 @@ Add this little snippet to your template and away you go!
 D3 isn't so scary anymore right?
 You can find the full version in a [gist][gist].
 
-[gist]: https://gist.github.com/cgarvis/71a3e2ab7ac0fe59796e
 [coffee]: http://coffeescript.org/
+[d3-bar-chart]: img/d3-bar-chart.png
+[gist]: https://gist.github.com/cgarvis/71a3e2ab7ac0fe59796e
 [svg-spec]: http://www.w3.org/TR/SVG/text.html
