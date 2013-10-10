@@ -22,7 +22,7 @@ First step is to create a `barChart` directive.
 
 It will will take an `data` array
 and add a `svg` tag to our element.
-We will using this svg to build our graphs.
+We will using this svg to build our chart.
 
 ```
 angular.module('chart', [])
@@ -44,8 +44,8 @@ angular.module('chart', [])
 
 D3 allow us to resize our data
 to the portions of the SVG using `d3.scale`.
-We tell the scale the `domain` which is the upper and lower bounds of the dataset
-and the `range` which is the upper and lower bounds of the chart.
+We tell the scale the upper and lower bounds of the dataset using `domain`
+and the upper and lower bounds of the chart using `range`.
 Using `x` and `y` functions generated from `d3.scale.linear()`,
 we can then place bars in the right spot on the SVG.
 
