@@ -10,16 +10,16 @@ redcarpet:
   extensions: ["fenced_code_blocks", "autolink", "space_after_headers"]
 
 # Site Information
-title : Christopher Garvis
-production_url : http://christophergarvis.com
-description: "Thoughts, flamewars, utilities, tutorials, codes, projects and other things by Christopher Garvis."
+title: Chris Garvis
+production_url: "http://chrisgarvis.com"
+description: "Code and other things"
 
 analytics: inl3kuv44j
 
 # Info about me
-author :
-  name : Christopher Garvis
-  github : cgarvis
+author:
+  name: Christopher Garvis
+  github: cgarvis
   linkedin: christophergarvis
-  twitter : cgarvis
+  twitter: cgarvis
   email: cgarvis@gmail.com
