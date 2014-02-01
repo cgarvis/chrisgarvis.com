@@ -15,7 +15,7 @@ task :clean do
   sh "rm -rf #{File.dirname(__FILE__)}/_site/*"
 end
 
-desc 'create new posts. title, future (# of days)'
+desc 'create new posts: rake new title="New Title" future=5'
 # rake new future=0 title="New post title goes here" slug="slug-override-title"
 task :new do
   require 'rubygems'
